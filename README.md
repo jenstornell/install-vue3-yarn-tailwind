@@ -11,3 +11,9 @@ Tailwind
 - $ yarn add -D tailwindcss@latest postcss@latest autoprefixer@latest
 - $ npx tailwindcss init -p
 - Change purge in tailwind.config.js to purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+- Create /src/tailwind.css
+- Add below
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+- Edit /src/main.js and add import "./tailwind.css"; before the line that starts with createApp
