@@ -13,7 +13,10 @@ Tailwind
 - Change purge in tailwind.config.js to purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
 - Create /src/tailwind.css
 - Add below
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+@import "tailwindcss/base";
+@import "components/buttons.css";
+@import "tailwindcss/utilities";
+
+Tailwind postcss-import
 - Edit /src/main.js and add import "./tailwind.css"; before the line that starts with createApp
+- $ yarn add -D postcss-import
