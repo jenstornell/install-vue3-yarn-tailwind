@@ -1,11 +1,43 @@
-Setup
-- Go to a folder with the terminal
+# How to install Vue3 with ViteJS and Yarn
 
-Vue
-- $ yarn create vite my-project --template vue
-- $ cd my-project
-- $ yarn
-- $ yarn dev
+**Instructions for Tailwind, PostcssImport, nesting, autoprefixer**
+
+## Setup
+
+1. Install NodeJS
+1. Go to a folder with the terminal
+
+## Install Vue
+
+In the termial in the folder you just created, do the following:
+
+### Create a project
+
+Change `my-project` to anything you like.
+
+```
+yarn create vite my-project --template vue
+```
+
+Go the your project folder.
+
+```
+cd my-project
+```
+
+### Run the installation
+
+```
+yarn
+```
+
+### Start the server
+
+```
+yarn dev
+```
+
+To make sure the server is working go to `https://localhost:3000` or where it says it's installed.
 
 Tailwind
 - $ yarn add -D tailwindcss@latest postcss@latest autoprefixer@latest
