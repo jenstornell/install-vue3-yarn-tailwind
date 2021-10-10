@@ -5,7 +5,8 @@
 ## Setup
 
 1. Install NodeJS
-1. Go to a folder with the terminal
+2. Install Yarn
+3. Go to a folder with the terminal
 
 ## Install Vue
 
