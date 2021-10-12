@@ -1,4 +1,4 @@
-# YARN
+# Yarn
 
 ## Install version 1
 
