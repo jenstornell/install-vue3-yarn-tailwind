@@ -5,7 +5,7 @@
 It's installed with Yarn because it's known to be faster than NPM.
 
 ```
-yarn add -D tailwindcss
+yarn add -D tailwindcss postcss
 ```
 
 ### Add `postcss.config.js` and `tailwind.config.js`
