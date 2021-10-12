@@ -1,6 +1,6 @@
 # Tailwind (optional)
 
-### Install Tailwind, PostCSS and Autoprefixer
+### Install Tailwind
 
 It's installed with Yarn because it's known to be faster than NPM.
 
