@@ -3,7 +3,7 @@
 ### Install Autoprefixer
 
 ```
-yarn add -D autoprefixer
+npm install -D autoprefixer@latest
 ```
 
 ### Set postcss.config.js
