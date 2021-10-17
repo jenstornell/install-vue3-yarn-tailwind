@@ -8,29 +8,26 @@ npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
 
 ### Add `postcss.config.js` and `tailwind.config.js`
 
-To be able to change configuration, it's better to have these files visible.
+To be able to change configuration, it's good to have `postcss.config.js` and `tailwind.config.js` visible.
 
 ```
 npx tailwindcss init -p
 ```
 
-### Set purge options
+### Edit `tailwind.config.js`
 
-Purge is a way to only add the CSS you need.
-
-In the `tailwind.config.js` change the purge option to the below:
+In the `tailwind.config.js` change the JIT and purge option like below.
 
 ```
-purge: ['./index.html', './src/**/*.{vue,js,ts,jsx,tsx}'],
+module.exports = {
+  mode: "jit",
+  purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
+};
 ```
 
-### Add tailwind.css 
+### Add `src/tailwind.css`
 
-In the `/src` folder, add `tailwind.css`. You need it to add custom CSS or import additional stylesheet files.
-
-### Set tailwind.css imports
-
-In the tailwind.css you need to add the tailwind imports.
+In the `/src` folder, add `tailwind.css` with the contents below.
 
 ```
 @import "tailwindcss/base";
@@ -38,9 +35,9 @@ In the tailwind.css you need to add the tailwind imports.
 @import "tailwindcss/utilities";
 ```
 
-### Import the file in Vue
+### Edit `src/main.js`
 
-Add `import './index.css'` to your `/src/main.js` like below.
+Add `import './tailwind.css'` to your `/src/main.js` like below.
 
 ```
 import { createApp } from "vue";
