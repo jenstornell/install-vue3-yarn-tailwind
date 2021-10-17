@@ -37,3 +37,15 @@ In the tailwind.css you need to add the tailwind imports.
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 ```
+
+### Import the file in Vue
+
+Add `import './index.css'` to your `/src/main.js` like below.
+
+```
+import { createApp } from "vue";
+import App from "./App.vue";
+import "./tailwind.css";
+
+createApp(App).mount("#app");
+```
