@@ -1,0 +1,55 @@
+# VueX
+
+## Install Vuex
+
+```
+npm install vuex
+```
+
+### Add `store/index.js`
+
+Add `src/store` folder and then `src/store/index.js` and edit the file like below.
+
+```
+import { createStore } from "vuex";
+
+export default createStore({
+  state() {
+    return {
+      count: 0,
+    };
+  },
+  mutations: {
+    increment(state) {
+      state.count++;
+    },
+  },
+});
+```
+
+### Edit `main.js`
+
+```
+import { createApp } from "vue";
+import App from "./App.vue";
+import "./tailwind.css";
+import store from "./store";
+
+createApp(App).use(store).mount("#app");
+```
+
+### Edit your component
+
+Directly after `<script setup>` add the code below.
+
+```
+import { useStore } from "vuex";
+const store = useStore();
+store.commit("increment");
+```
+
+Add The following to your template.
+
+```
+{{ store.state.count }}
+```
