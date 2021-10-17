@@ -2,10 +2,8 @@
 
 ### Install Tailwind
 
-It's installed with Yarn because it's known to be faster than NPM.
-
 ```
-yarn add -D tailwindcss postcss
+npm install -D tailwindcss@latest postcss@latest autoprefixer@latest
 ```
 
 ### Add `postcss.config.js` and `tailwind.config.js`
