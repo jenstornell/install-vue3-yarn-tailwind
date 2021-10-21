@@ -13,8 +13,8 @@ It will run autoprefixer as a PostCSS plugin. Add `require("autoprefixer"),` whe
 ```
 module.exports = {
   plugins: [
-    require("postcss-import"),
-    require("tailwindcss/nesting"),
+    // require("postcss-import"),
+    // require("tailwindcss/nesting"),
     require("tailwindcss"),
     require("autoprefixer"),
   ],
