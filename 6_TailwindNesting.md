@@ -7,7 +7,7 @@ Look for the line with `require("tailwindcss/nesting"),` and insert it in the ri
 ```js
 module.exports = {
   plugins: [
-    require("postcss-import"),
+    // require("postcss-import"),
     require("tailwindcss/nesting"),
     require("tailwindcss"),
     // require("autoprefixer"),
