@@ -18,7 +18,7 @@ npx tailwindcss init -p
 
 In the `tailwind.config.js` change the JIT and purge option like below.
 
-```
+```js
 module.exports = {
   mode: "jit",
   purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],
@@ -29,7 +29,7 @@ module.exports = {
 
 In the `/src` folder, add `tailwind.css` with the contents below.
 
-```
+```css
 @import "tailwindcss/base";
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
