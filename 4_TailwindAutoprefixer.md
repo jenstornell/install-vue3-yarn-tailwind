@@ -10,7 +10,7 @@ npm install -D autoprefixer@latest
 
 It will run autoprefixer as a PostCSS plugin. Add `require("autoprefixer"),` where it belongs like below:
 
-```
+```js
 module.exports = {
   plugins: [
     // require("postcss-import"),
