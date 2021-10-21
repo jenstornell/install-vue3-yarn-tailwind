@@ -4,13 +4,13 @@
 
 Look for the line with `require("tailwindcss/nesting"),` and insert it in the right place in your `postcss.config.js`.
 
-```
+```js
 module.exports = {
   plugins: [
     require("postcss-import"),
     require("tailwindcss/nesting"),
     require("tailwindcss"),
-    require("autoprefixer"),
+    // require("autoprefixer"),
   ],
 };
 ```
