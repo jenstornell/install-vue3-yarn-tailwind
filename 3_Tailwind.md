@@ -39,7 +39,7 @@ In the `/src` folder, add `tailwind.css` with the contents below.
 
 Add `import './tailwind.css'` to your `/src/main.js` like below.
 
-```
+```js
 import { createApp } from "vue";
 import App from "./App.vue";
 import "./tailwind.css";
