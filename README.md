@@ -28,7 +28,7 @@
 ### Vuex and Vue Router
 
 <details>
-  <summary>Vuex (optional)</summary>
+  <summary><strong>Vuex (optional)</strong></summary>
 
 1. Start the terminal.
 1. Go to your store folder like `cd projects/my-project` if you are not there already.
@@ -42,7 +42,7 @@ EJ KLAR!!!
 
 </details>
 <details>
-  <summary>Vue Router (optional)</summary>
+  <summary><strong>Vue Router (optional)</strong></summary>
 
 [Detailed instructions)](chapters/vue/VUE-ROUTER.md)
 
