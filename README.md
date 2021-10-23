@@ -19,9 +19,11 @@
 
 ### Tailwind
 
-[Tailwind - Detailed instructions](chapters/tailwind/TAILWIND.md)
+**[Detailed instructions](chapters/tailwind/TAILWIND.md)**
 
-1. Run `npm install -D tailwindcss@latest postcss@latest` to install Tailwind.
+**Compact instructions**
+
+1. Run `npm install -D tailwindcss@latest postcss@latest` in the terminal to install Tailwind.
 1. Run `npx tailwindcss init -p` in the terminal to add `postcss.config.js` and `tailwind.config.js`.
 1. Add `mode: "jit",` after `module.exports = {` in your `tailwind.config.js`.
 1. Replace `purge: [],` with `purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],` in your `tailwind.config.js`.
