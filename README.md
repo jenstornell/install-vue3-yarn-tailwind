@@ -51,10 +51,10 @@ Vue is installed with ViteJS and Tailwind uses JIT (Just In Time) which makes th
 
 [Detailed instructions](chapters/tailwind/TAILWIND.md)
 
-## Vuex and Vue Router
+## Vue ecosystem (optional)
 
 <details>
-  <summary><strong>Vuex (optional)</strong></summary>
+  <summary><strong>Vuex</strong></summary>
 
 1. Start the terminal.
 1. Go to your store folder like `cd projects/my-project` if you are not there already.
@@ -68,13 +68,13 @@ EJ KLAR!!!
 
 </details>
 <details>
-  <summary><strong>Vue Router (optional)</strong></summary>
+  <summary><strong>Vue Router</strong></summary>
 
 [Detailed instructions)](chapters/vue/VUE-ROUTER.md)
 
 </details>
 
-## Autoprefixer, Nesting and Import for Tailwind (optional)
+## Tailwind ecosystem (optional)
 
 <details>
   <summary><strong>Autoprefixer</strong></summary>
