@@ -51,7 +51,7 @@ Vue is installed with ViteJS and Tailwind uses JIT (Just In Time) which makes th
 
 [Detailed instructions](chapters/tailwind/TAILWIND.md)
 
-## Vue ecosystem (optional)
+## For Vue (optional)
 
 <details>
   <summary><strong>Vuex</strong></summary>
@@ -74,7 +74,7 @@ EJ KLAR!!!
 
 </details>
 
-## Tailwind ecosystem (optional)
+## For Tailwind (optional)
 
 <details>
   <summary><strong>Autoprefixer</strong></summary>
