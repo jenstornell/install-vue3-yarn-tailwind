@@ -51,7 +51,7 @@ Vue is installed with ViteJS and Tailwind uses JIT (Just In Time) which makes th
 
 [Detailed instructions](chapters/tailwind/TAILWIND.md)
 
-### Vue - Vuex and Vue Router
+## Vuex and Vue Router
 
 <details>
   <summary><strong>Vuex (optional)</strong></summary>
@@ -74,10 +74,10 @@ EJ KLAR!!!
 
 </details>
 
-## Tailwind - Autoprefixer, Nesting and Import
+## Autoprefixer, Nesting and Import for Tailwind (optional)
 
 <details>
-  <summary><strong>Tailwind with Autoprefixer (optional)</strong></summary>
+  <summary><strong>Autoprefixer</strong></summary>
 
 ### Autoprefixer
 
@@ -88,7 +88,9 @@ EJ KLAR!!!
 
 </details>
 <details>
-  <summary><strong>Tailwind with Nesting (optional)</strong></summary>
+  <summary><strong>Nesting</strong></summary>
+
+### Nesting
 
 1. Edit `postcss.config.js` and add `require("tailwindcss/nesting"),` just before `require("tailwindcss"),`.
 
@@ -96,7 +98,9 @@ EJ KLAR!!!
 
 </details>
 <details>
-  <summary><strong>Tailwind with PostCSS Import (optional)</strong></summary>
+  <summary><strong>Import</strong></summary>
+
+### Import
 
 [Detailed instructions](chapters/tailwind/POSTCSS-IMPORT.md)
 
