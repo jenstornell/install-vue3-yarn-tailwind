@@ -13,11 +13,11 @@ Vue is installed with ViteJS and Tailwind uses JIT (Just In Time) which makes th
 
 ### Optional
 
-1. [Vue - Vuex](#vue---vuex-and-vue-router)
-1. [Vue - Vue Router](#vue---vuex-and-vue-router)
-1. [Tailwind - Autoprefixer](#tailwind---autoprefixer-nesting-and-import)
-1. [Tailwind - Nesting](#tailwind---autoprefixer-nesting-and-import)
-1. [Tailwind - Import](#tailwind---autoprefixer-nesting-and-import)
+1. [Vue - Vuex](#vue)
+1. [Vue - Vue Router](#vue-router)
+1. [Tailwind - Autoprefixer](#autoprefixer)
+1. [Tailwind - Nesting](#nesting)
+1. [Tailwind - Import](#import)
 
 <!--
 
@@ -31,11 +31,11 @@ Vue is installed with ViteJS and Tailwind uses JIT (Just In Time) which makes th
 ## Vue
 
 1. Start the terminal.
-1. Go to your projects folder like `cd projects`, or add one first with `mkdir projects`.
-1. Run `npm init vite@latest my-project -- --template vue` to setup `my-project` as project folder.
-1. Go to the folder with `cd my-project`.
-1. Run `npm install` to install Vue.
-1. Run `npm dev` to start the server.
+   1. Go to your projects folder like `cd projects`, or add one first with `mkdir projects`.
+   1. Run `npm init vite@latest my-project -- --template vue` to setup `my-project` as project folder.
+   1. Go to the folder with `cd my-project`.
+   1. Run `npm install` to install Vue.
+   1. Run `npm dev` to start the server.
 1. Visit `http://localhost:3000` in your browser to see if it's running correctly.
 
 [Detailed instructions](chapters/vue/VUE.md)
@@ -43,11 +43,11 @@ Vue is installed with ViteJS and Tailwind uses JIT (Just In Time) which makes th
 ## Tailwind
 
 1. Start the terminal.
-1. Run `npm install -D tailwindcss@latest postcss@latest` to install Tailwind.
-1. Run `npx tailwindcss init -p` to add `postcss.config.js` and `tailwind.config.js`.
+   1. Run `npm install -D tailwindcss@latest postcss@latest` to install Tailwind.
+   1. Run `npx tailwindcss init -p` to add `postcss.config.js` and `tailwind.config.js`.
 1. Start a code editor.
-1. Edit `tailwind.config.js` and add `mode: "jit",` after `module.exports = {`.
-1. Edit `tailwind.config.js` and replace `purge: [],` with `purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],`.
+   1. Edit `tailwind.config.js` and add `mode: "jit",` after `module.exports = {`.
+   1. Edit `tailwind.config.js` and replace `purge: [],` with `purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],`.
 
 [Detailed instructions](chapters/tailwind/TAILWIND.md)
 
@@ -56,11 +56,13 @@ Vue is installed with ViteJS and Tailwind uses JIT (Just In Time) which makes th
 <details>
   <summary><strong>Vuex</strong></summary>
 
+### Vuex
+
 1. Start the terminal.
-1. Go to your store folder like `cd projects/my-project` if you are not there already.
-1. Add a new folder with `mkdir store` to add a location for your store.
+   1. Go to your store folder like `cd projects/my-project` if you are not there already.
+   1. Add a new folder with `mkdir store` to add a location for your store.
 1. Start your code editor.
-1. Add a new file `index.js` and place it in your `store` folder.
+   1. Add a new file `index.js` and place it in your `store` folder.
 
 EJ KLAR!!!
 
@@ -69,6 +71,8 @@ EJ KLAR!!!
 </details>
 <details>
   <summary><strong>Vue Router</strong></summary>
+
+### Vue Router
 
 [Detailed instructions)](chapters/vue/VUE-ROUTER.md)
 
@@ -81,8 +85,12 @@ EJ KLAR!!!
 
 ### Autoprefixer
 
-1. Run `npm install -D autoprefixer@latest` in the terminal to install Autoprefixer.
-1. Edit `postcss.config.js` and add `require("autoprefixer"),` after `require("tailwindcss"),`.
+[Autoprefixer](https://www.npmjs.com/package/autoprefixer) is adding prefixed versions of new features for backward compability.
+
+1. Start the terminal.
+   1. Run `npm install -D autoprefixer@latest` to install Autoprefixer.
+1. Start your code editor.
+   1. Edit `postcss.config.js` and add `require("autoprefixer"),` after `require("tailwindcss"),`.
 
 [Detailed instructions](chapters/tailwind/AUTOPREFIXER.md)
 
@@ -92,6 +100,9 @@ EJ KLAR!!!
 
 ### Nesting
 
+To enable nested CSS selectors, you can enable the built in nesting feature, which works like [SASS](https://sass-lang.com/guide#topic-3). You don't need to install an additional package.
+
+1. Start the terminal.
 1. Edit `postcss.config.js` and add `require("tailwindcss/nesting"),` just before `require("tailwindcss"),`.
 
 [Detailed instructions)](chapters/tailwind/NESTING.md)
@@ -101,6 +112,13 @@ EJ KLAR!!!
   <summary><strong>Import</strong></summary>
 
 ### Import
+
+To enable [CSS @import](https://developer.mozilla.org/en-US/docs/Web/CSS/@import) like `@import 'menu.css';` you can install [PostCSS Import](https://www.npmjs.com/package/postcss-import).
+
+1. Start the terminal.
+   1. Run `npm install -D postcss-import` to install PostCSS Import.
+1. Start your code editor.
+   1. Edit `postcss.config.js` and add `require("postcss-import"),` after `plugins: [`.
 
 [Detailed instructions](chapters/tailwind/POSTCSS-IMPORT.md)
 
