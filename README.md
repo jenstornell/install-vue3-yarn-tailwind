@@ -4,6 +4,8 @@
 - Great performance in mind
 - No missing steps and no fluff
 
+## Table of contents
+
 ### Setup environment
 
 1. [NodeJS](chapters/environment/NODEJS.md)
@@ -23,7 +25,8 @@
 
 [Detailed instructions](chapters/vue/VUE.md)
 
-### Vuex (optional)
+<details>
+  <summary>### Vuex (optional)</summary>
 
 1. Start the terminal.
 1. Go to your store folder like `cd projects/my-project` if you are not there already.
@@ -34,6 +37,8 @@
 EJ KLAR!!!
 
 [Detailed instructions](chapters/vue/VUEX.md)
+
+</details>
 
 ### Vue Router (optional)
 
