@@ -6,14 +6,14 @@
 
 ## Table of contents
 
-### Setup environment
+## Setup environment
 
 1. [NodeJS](chapters/environment/NODEJS.md)
 1. [NPM](chapters/environment/NPM.md)
 
-## Install Vue
+## Vue and Tailwind
 
-### Vue
+## Vue
 
 1. Start the terminal.
 1. Go to your projects folder like `cd projects`, or add one first with `mkdir projects`.
@@ -25,7 +25,18 @@
 
 [Detailed instructions](chapters/vue/VUE.md)
 
-### Vuex and Vue Router
+## Tailwind
+
+1. Start the terminal.
+1. Run `npm install -D tailwindcss@latest postcss@latest` to install Tailwind.
+1. Run `npx tailwindcss init -p` to add `postcss.config.js` and `tailwind.config.js`.
+1. Start a code editor.
+1. Edit `tailwind.config.js` and add `mode: "jit",` after `module.exports = {`.
+1. Edit `tailwind.config.js` and replace `purge: [],` with `purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],`.
+
+[Detailed instructions](chapters/tailwind/TAILWIND.md)
+
+### Vuex & Vue Router
 
 <details>
   <summary><strong>Vuex (optional)</strong></summary>
@@ -47,33 +58,26 @@ EJ KLAR!!!
 [Detailed instructions)](chapters/vue/VUE-ROUTER.md)
 
 </details>
-
-## Install Tailwind
-
-### Tailwind
-
-1. Start the terminal.
-1. Run `npm install -D tailwindcss@latest postcss@latest` to install Tailwind.
-1. Run `npx tailwindcss init -p` to add `postcss.config.js` and `tailwind.config.js`.
-1. Start a code editor.
-1. Edit `tailwind.config.js` and add `mode: "jit",` after `module.exports = {`.
-1. Edit `tailwind.config.js` and replace `purge: [],` with `purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],`.
-
-[Detailed instructions](chapters/tailwind/TAILWIND.md)
-
-### Tailwind with Autoprefixer (optional)
+<details>
+  <summary><strong>Tailwind with Autoprefixer (optional)</strong></summary>
 
 1. Run `npm install -D autoprefixer@latest` in the terminal to install Autoprefixer.
 1. Edit `postcss.config.js` and add `require("autoprefixer"),` after `require("tailwindcss"),`.
 
 [Detailed instructions](chapters/tailwind/AUTOPREFIXER.md)
 
-### Tailwind with Nesting (optional)
+</details>
+<details>
+  <summary><strong>Tailwind with Nesting (optional)</strong></summary>
 
 1. Edit `postcss.config.js` and add `require("tailwindcss/nesting"),` just before `require("tailwindcss"),`.
 
 [Detailed instructions)](chapters/tailwind/NESTING.md)
 
-### Tailwind with PostCSS Import (optional)
+</details>
+<details>
+  <summary><strong>Tailwind with PostCSS Import (optional)</strong></summary>
 
 [Detailed instructions](chapters/tailwind/POSTCSS-IMPORT.md)
+
+</details>
