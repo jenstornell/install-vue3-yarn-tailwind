@@ -1,8 +1,6 @@
 # Vue + Tailwind
 
-- A really simple guide
-- Great performance in mind
-- No missing steps and no fluff
+A really simple guide with great performance in mind. No missing steps and not fluff. Vue is installed with ViteJS which is super fast. Tailwind uses JIT (Just In Time) which also is really fast.
 
 ## Table of contents
 
