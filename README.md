@@ -6,20 +6,24 @@
 
 ### Setup environment
 
-1. [NodeJS](environment/NODEJS.md)
-1. [NPM](environment/NPM.md)
+1. [NodeJS](chapters/environment/NODEJS.md)
+1. [NPM](chapters/environment/NPM.md)
 
 ### Install Vue with Vite
 
-1. [Vue](vue/VUE.md)
-1. [Vuex (optional)](vue/VUEX.md)
-1. [Vue Router (optional)](vue/VUE-ROUTER.md)
+1. [Vue](chapters/vue/VUE.md)
+1. [Vuex (optional)](chapters/vue/VUEX.md)
+1. [Vue Router (optional)](chapters/vue/VUE-ROUTER.md)
 
 ### Install Tailwind
 
-1. [Tailwind](tailwind/TAILWIND.md)
-1. [Autoprefixer (optional)](tailwind/AUTOPREFIXER.md)
-1. [Nesting (optional)](tailwind/NESTING.md)
-1. [PostCSS Import (optional)](tailwind/POSTCSS-IMPORT.md)
+1. [Tailwind](chapters/tailwind/TAILWIND.md)
+   1.1 Run `npm install -D tailwindcss@latest postcss@latest` to install Tailwind.
+   1.1 Run `npx tailwindcss init -p` in the terminal to add `postcss.config.js` and `tailwind.config.js`.
+   1.1 Add `mode: "jit",` after `module.exports = {` in your `tailwind.config.js`.
+   1.1 Replace `purge: [],` with `purge: ["./index.html", "./src/**/*.{vue,js,ts,jsx,tsx}"],` in your `tailwind.config.js`.
+1. [Autoprefixer (optional)](chapters/tailwind/AUTOPREFIXER.md)
+1. [Nesting (optional)](chapters/tailwind/NESTING.md)
+1. [PostCSS Import (optional)](chapters/tailwind/POSTCSS-IMPORT.md)
 
 If you have something to say, just add an issue.
