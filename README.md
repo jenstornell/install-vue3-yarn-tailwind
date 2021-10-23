@@ -1,13 +1,20 @@
 # Vue + Tailwind
 
-A really simple guide with great performance in mind. No missing steps and not fluff. Vue is installed with ViteJS which is super fast. Tailwind uses JIT (Just In Time) which also is really fast.
+Install Vue and Tailwind with no missing steps and completely without fluff.
+
+Vue is installed with ViteJS and Tailwind uses JIT (Just In Time) which makes this installation increddible fast.
 
 ## Table of contents
 
+### Required
+
 1. [Vue](#vue)
+1. [Tailwind](#tailwind)
+
+### Optional
+
 1. [Vue - Vuex](#vue---vuex-and-vue-router)
 1. [Vue - Vue Router](#vue---vuex-and-vue-router)
-1. [Tailwind](#tailwind)
 1. [Tailwind - Autoprefixer](#tailwind---autoprefixer-nesting-and-import)
 1. [Tailwind - Nesting](#tailwind---autoprefixer-nesting-and-import)
 1. [Tailwind - Import](#tailwind---autoprefixer-nesting-and-import)
@@ -71,6 +78,8 @@ EJ KLAR!!!
 
 <details>
   <summary><strong>Tailwind with Autoprefixer (optional)</strong></summary>
+
+### Autoprefixer
 
 1. Run `npm install -D autoprefixer@latest` in the terminal to install Autoprefixer.
 1. Edit `postcss.config.js` and add `require("autoprefixer"),` after `require("tailwindcss"),`.
