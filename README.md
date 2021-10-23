@@ -6,12 +6,22 @@
 
 ## Table of contents
 
+1. Vue
+1. Vue - Vuex
+1. Vue - Vue Router
+1. Tailwind
+1. Tailwind - Autoprefixer
+1. Tailwind - Nesting
+1. Tailwind - Import
+
+<!--
+
 ## Setup environment
 
 1. [NodeJS](chapters/environment/NODEJS.md)
 1. [NPM](chapters/environment/NPM.md)
 
-## Vue and Tailwind
+-->
 
 ## Vue
 
@@ -36,7 +46,7 @@
 
 [Detailed instructions](chapters/tailwind/TAILWIND.md)
 
-### Vuex & Vue Router
+### Vue - Vuex and Vue Router
 
 <details>
   <summary><strong>Vuex (optional)</strong></summary>
@@ -58,6 +68,9 @@ EJ KLAR!!!
 [Detailed instructions)](chapters/vue/VUE-ROUTER.md)
 
 </details>
+
+## Tailwind - Autoprefixer, Nesting and Import
+
 <details>
   <summary><strong>Tailwind with Autoprefixer (optional)</strong></summary>
 
