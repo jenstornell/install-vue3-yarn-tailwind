@@ -1,4 +1,4 @@
-# Tailwind Autoprefixer
+# Autoprefixer
 
 ### Install Autoprefixer
 

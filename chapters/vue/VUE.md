@@ -12,10 +12,10 @@ cd projects
 
 ### Create a project
 
-Change `my-project` to anything you like.
+Change `my-project` to anything you like. The `--` is important and is not a typo.
 
 ```
-npm init vite@latest <project-name> -- --template vue
+npm init vite@latest my-project -- --template vue
 ```
 
 ### Go the your project folder.

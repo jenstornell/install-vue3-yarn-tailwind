@@ -1,4 +1,4 @@
-# Tailwind (optional)
+# Tailwind
 
 ### Install Tailwind
 

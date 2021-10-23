@@ -1,4 +1,4 @@
-# Tailwind Nesting
+# Tailwind nesting
 
 ### postcss.config.js
 
