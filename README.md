@@ -25,8 +25,10 @@
 
 [Detailed instructions](chapters/vue/VUE.md)
 
+### Vuex and Vue Router
+
 <details>
-  <summary><h3>Vuex (optional)</h3></summary>
+  <summary>Vuex (optional)</summary>
 
 1. Start the terminal.
 1. Go to your store folder like `cd projects/my-project` if you are not there already.
@@ -39,10 +41,12 @@ EJ KLAR!!!
 [Detailed instructions](chapters/vue/VUEX.md)
 
 </details>
-
-### Vue Router (optional)
+<details>
+  <summary>Vue Router (optional)</summary>
 
 [Detailed instructions)](chapters/vue/VUE-ROUTER.md)
+
+</details>
 
 ## Install Tailwind
 
