@@ -26,7 +26,7 @@
 [Detailed instructions](chapters/vue/VUE.md)
 
 <details>
-  <summary>### Vuex (optional)</summary>
+  <summary><h3>Vuex (optional)</h3></summary>
 
 1. Start the terminal.
 1. Go to your store folder like `cd projects/my-project` if you are not there already.
