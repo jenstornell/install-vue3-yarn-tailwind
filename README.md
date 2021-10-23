@@ -6,13 +6,13 @@
 
 ## Table of contents
 
-1. Vue
-1. Vue - Vuex
-1. Vue - Vue Router
-1. Tailwind
-1. Tailwind - Autoprefixer
-1. Tailwind - Nesting
-1. Tailwind - Import
+1. [Vue](#vue)
+1. [Vue - Vuex](#vue---vuex-and-vue-router)
+1. [Vue - Vue Router](#vue---vuex-and-vue-router)
+1. [Tailwind](#tailwind)
+1. [Tailwind - Autoprefixer](#tailwind---autoprefixer-nesting-and-import)
+1. [Tailwind - Nesting](#tailwind---autoprefixer-nesting-and-import)
+1. [Tailwind - Import](#tailwind---autoprefixer-nesting-and-import)
 
 <!--
 
